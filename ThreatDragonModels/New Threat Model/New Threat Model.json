@@ -248,6 +248,56 @@
               "providesAuthentication": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Add/Remove on events\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Add/Remove on events\n"
+            ],
+            "id": "52317474-10fa-47c9-ac19-d9689391beed",
+            "source": {
+              "x": 273,
+              "y": 216
+            },
+            "target": {
+              "cell": "4a927bab-5139-4f3f-ac6f-81b9b0dfa2e1",
+              "port": "5561a66d-c2b1-4666-833d-ded9ff774fcd"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 216
+              }
+            ]
           }
         ]
       }
