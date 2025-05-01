@@ -189,8 +189,8 @@
                 "text": "BAM CAM Subscription"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -286,16 +286,16 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": [
                 {
                   "id": "ffd6f74d-0af0-49a8-8851-495b4cc92c42",
                   "title": "Threat- Sproofing",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "type": "Spoofing",
-                  "description": "Provide a description for this threat",
+                  "description": "Require Authentication",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A\nTBD",
                   "modelType": "STRIDE",
                   "new": false,
@@ -305,10 +305,10 @@
                 {
                   "id": "95e692d5-561b-4dd1-b1e7-84e281cc6cd2",
                   "title": "Repudiation",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "type": "Repudiation",
-                  "description": "Provide a description for this threat",
+                  "description": "1. BAM keeps audit trail for CAM changes\n2. BAM reconciler provides eventual consistency",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
@@ -317,9 +317,16 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
-                "repudiation": 1
+                "spoofing": 3,
+                "repudiation": 2
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
