@@ -54,7 +54,7 @@
               "body": {
                 "stroke": "red",
                 "strokeWidth": 2.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -147,8 +147,8 @@
               "type": "tm.Actor",
               "name": "MuleSoft",
               "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
+              "outOfScope": true,
+              "reasonOutOfScope": "Third party system.",
               "hasOpenThreats": true,
               "providesAuthentication": false,
               "threats": [
@@ -166,6 +166,13 @@
                   "score": ""
                 }
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -313,13 +320,6 @@
                 "spoofing": 2,
                 "repudiation": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
