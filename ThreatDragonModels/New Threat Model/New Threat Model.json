@@ -166,13 +166,6 @@
                   "score": ""
                 }
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -320,13 +313,6 @@
                 "spoofing": 3,
                 "repudiation": 2
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -349,7 +335,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Add/Remove on events\n",
+              "name": "Add/Remove Subscription \nProduct Rate Plan\n\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -406,7 +392,7 @@
               }
             },
             "labels": [
-              "Add/Remove on events\n"
+              "Add/Remove Subscription \nProduct Rate Plan\n\n"
             ],
             "id": "52317474-10fa-47c9-ac19-d9689391beed",
             "source": {
@@ -599,6 +585,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 8
+    "threatTop": 9
   }
 }
