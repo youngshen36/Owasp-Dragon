@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "aff4de1c-0b00-45dc-93e9-67c6b0be82e7",
             "zIndex": -1,
+            "id": "aff4de1c-0b00-45dc-93e9-67c6b0be82e7",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -284,7 +284,7 @@
               "threats": [
                 {
                   "id": "ffd6f74d-0af0-49a8-8851-495b4cc92c42",
-                  "title": "Threat- Sproofin",
+                  "title": "Threat- Sproofing",
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Spoofing",
@@ -310,9 +310,16 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 1
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -431,6 +438,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -514,7 +522,6 @@
               ]
             },
             "id": "98c0834a-2eaf-40b8-9911-d6694f588f30",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "IAM ",
