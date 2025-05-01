@@ -298,8 +298,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
                 "targetMarker": {
                   "name": "block"
                 },
@@ -319,16 +318,16 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "https",
               "threats": [
                 {
                   "id": "e140ab21-28d0-47d9-a35c-27261e889789",
                   "title": "New STRIDE threat",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "TBD",
                   "type": "Denial of service",
                   "description": "DoD attach against BAM endpoint",
@@ -341,7 +340,7 @@
                 {
                   "id": "866fe773-dc54-4067-9e8b-d51d1f993744",
                   "title": "New STRIDE threat",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "TBD",
                   "type": "Tampering",
                   "description": "Payload tampering",
@@ -354,7 +353,7 @@
                 {
                   "id": "6e555342-3382-4c1d-8ffd-544135caa116",
                   "title": "New STRIDE threat",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "TBD",
                   "type": "Information disclosure",
                   "description": "Information disclosure",
@@ -366,9 +365,9 @@
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 1,
-                "denialOfService": 1
+                "tampering": 2,
+                "informationDisclosure": 2,
+                "denialOfService": 2
               }
             },
             "labels": [
@@ -395,6 +394,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 7
+    "threatTop": 8
   }
 }
