@@ -19,6 +19,27 @@
         "cells": [
           {
             "position": {
+              "x": 560,
+              "y": 140
+            },
+            "size": {
+              "width": 670,
+              "height": 210
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "aff4de1c-0b00-45dc-93e9-67c6b0be82e7",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 160,
               "y": 180
             },
@@ -150,10 +171,10 @@
           {
             "position": {
               "x": 600,
-              "y": 190
+              "y": 189.99999999999994
             },
             "size": {
-              "width": 240,
+              "width": 190,
               "height": 70
             },
             "attrs": {
@@ -320,8 +341,8 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
               "protocol": "https",
               "threats": [
                 {
@@ -386,6 +407,176 @@
               {
                 "x": 540,
                 "y": 216
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 1051,
+              "y": 199.99999999999994
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "IAM "
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a813cb5a-f4ea-4129-b8b4-6a5b3222e389"
+                },
+                {
+                  "group": "right",
+                  "id": "fd0f7dc0-affd-4409-a8dd-91badd4da87c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4fa1174f-91ba-4542-b6aa-8e350b7cb489"
+                },
+                {
+                  "group": "left",
+                  "id": "1daad51c-4ac6-4c77-b1a6-a53a916f2895"
+                }
+              ]
+            },
+            "id": "98c0834a-2eaf-40b8-9911-d6694f588f30",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Actor",
+              "name": "IAM ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 12,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Provision/Deprovision",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "https",
+              "threats": []
+            },
+            "labels": [
+              "Provision/Deprovision"
+            ],
+            "id": "fc3f752b-96c6-4120-955a-1120db903a23",
+            "source": {
+              "cell": "4a927bab-5139-4f3f-ac6f-81b9b0dfa2e1",
+              "port": "f40ef677-5ae1-4fed-85d0-d5dac03f3ede"
+            },
+            "target": {
+              "cell": "98c0834a-2eaf-40b8-9911-d6694f588f30",
+              "port": "1daad51c-4ac6-4c77-b1a6-a53a916f2895"
+            },
+            "vertices": [
+              {
+                "x": 840,
+                "y": 220
+              },
+              {
+                "x": 980,
+                "y": 280
               }
             ]
           }
